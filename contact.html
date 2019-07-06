@@ -24,15 +24,20 @@
 
     <main class="flex">
       <section class="card">
-        <h2>Background</h2>
-        <p>I've been developing animated banner ads using HTML and CSS for the last few years and would like to transition to working on websites as well.</p>
-        <p>I love being able to work on animation but also want to explore what else is out there!</p>
-      </section>
+        <h2>Contact Me</h2>
+        <p>If you'd like to work with me on a project or if you'd just like to know more about me, fill out the form below and I'll be in touch soon!</p>
 
-      <section class="card">
-        <h2>Goals</h2>
-        <p>I want to expand my knowledge of front end web development and dive deeper into CSS and JavaScript in a way I haven't been able to previously.
-        <p>I would also like to learn more about back end web development in the near future.</p>
+        <form action="contact.html" method="post">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name"><br>
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email"><br>
+
+          <label for="message">Message:</label>
+          <textarea id="message" name="message"></textarea>
+          <button type="submit">Submit</button>
+        </form>
       </section>
     </main>
 
